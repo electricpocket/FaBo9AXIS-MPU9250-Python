@@ -10,11 +10,11 @@
 #
 #  FaBo <info@fabo.io>
 
-import FaBo9Axis_MPU9250
+import MPU9250 as MP
 import time
 import sys
 
-mpu9250 = FaBo9Axis_MPU9250.MPU9250()
+mpu9250 = MP.MPU9250()
 
 try:
     while True:
