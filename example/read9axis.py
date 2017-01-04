@@ -23,6 +23,9 @@ try:
         print " my = " , ( mag['y'] )
         print " mz = " , ( mag['z'] )
         print
+        
+        temp = mpu9250.readTemperature()
+        print " temp = " , (temp)
 
         time.sleep(0.5)
 
