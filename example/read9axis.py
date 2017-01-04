@@ -1,14 +1,4 @@
 # coding: utf-8
-## @package faboMPU9250
-#  This is a library for the FaBo 9AXIS I2C Brick.
-#
-#  http://fabo.io/202.html
-#
-#  Released under APACHE LICENSE, VERSION 2.0
-#
-#  http://www.apache.org/licenses/
-#
-#  FaBo <info@fabo.io>
 
 import MPU9250 as MP
 import time
