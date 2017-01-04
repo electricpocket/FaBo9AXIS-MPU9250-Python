@@ -80,7 +80,7 @@ AK8963_BIT_14 = 0x00
 AK8963_BIT_16 = 0x01
 
 ## smbus
-bus = smbus.SMBus(1)
+bus = smbus.SMBus(2)
 
 ## MPU9250 I2C Controll class
 class MPU9250:
